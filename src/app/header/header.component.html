@@ -1,20 +1,13 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#" [routerLink]="['/']">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#" [routerLink]="['/Login']">Login</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#" [routerLink]="['/Register']">Register</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#" [routerLink]="['/User']">User</a>
-      </li>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li> <a [routerLink]="['/']">Home</a></li>
+      <li><a  [routerLink]="['/Login']">Login</a></li>
+      <li><a  [routerLink]="['/User']">User</a></li>
+      <li><a  [routerLink]="['/Register']">Register</a></li>
     </ul>
-   
   </div>
 </nav>
